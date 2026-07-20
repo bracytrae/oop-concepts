@@ -51,8 +51,6 @@ Read the guides in this order:
 5. [Abstraction](04-abstraction/README.md)
 6. [Composition](05-composition/README.md)
 
-Shorter [concept reference guides](concepts/) are also available for quick review.
-
 ## Why use OOP?
 
 OOP can make larger programs easier to understand by keeping related data and behavior together. It can also help you reuse code and change one part of a program without rewriting everything.
