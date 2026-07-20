@@ -1,6 +1,6 @@
 # 04 — Abstraction
 
-**Abstraction** exposes what an object can do while hiding how it does it.
+**Abstraction** means showing what an object can do without making other code worry about every detail inside it.
 
 ```java
 interface Shape {
@@ -20,7 +20,9 @@ class Circle implements Shape {
 }
 ```
 
-`Shape` defines a promise: every shape must provide `area()`. Code using a `Shape` does not need to know the formula used by each implementation.
+`Shape` is an **interface**. It lists a method named `area()` but does not calculate the area itself. Any class that implements `Shape` promises to add its own `area()` method. This promise is sometimes called a **contract**.
+
+`Circle` keeps that promise by providing the calculation. Code using a `Shape` only needs to call `area()`; it does not need to know which formula is used.
 
 ## Abstract classes
 
@@ -59,9 +61,9 @@ You cannot write `new Animal()` because `Animal` is abstract. You can create a `
 
 | Use an interface when... | Use an abstract class when... |
 | --- | --- |
-| Unrelated classes should follow the same contract | Closely related classes share state or code |
-| A class may need several contracts | A class needs one shared parent |
-| You mainly want to describe capabilities | You want both a foundation and required behavior |
+| Different classes need to provide the same methods | Related classes share data or completed methods |
+| A class needs to follow more than one set of rules | A class needs one shared parent |
+| You mainly want to describe what a class can do | You want to share code and require certain methods |
 
 A Java class can implement multiple interfaces, but it can extend only one class. Neither option is always better—choose the one that makes the relationship clearest.
 
