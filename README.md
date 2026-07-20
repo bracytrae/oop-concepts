@@ -55,7 +55,7 @@ Read the guides in this order:
 
 OOP can make larger programs easier to understand by keeping related data and behavior together. It can also help you reuse code and change one part of a program without rewriting everything.
 
-OOP is a tool, not a rule: use it when objects make the problem clearer.
+OOP is a tool, not a rule, so you use it when objects make the problem clearer.
 
 ## Running Java examples
 
