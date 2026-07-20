@@ -40,15 +40,18 @@ What is happening?
 4. `describe()` is a **method**: behavior the object provides.
 5. `new Car("blue")` creates an **object** (also called an instance).
 
-## Core OOP concepts
+## Learning path
 
 Read the guides in this order:
 
-1. [Classes and objects](concepts/classes-and-objects/README.md)
-2. [Encapsulation](concepts/encapsulation/README.md)
-3. [Inheritance](concepts/inheritance/README.md)
-4. [Polymorphism](concepts/polymorphism/README.md)
-5. [Abstraction](concepts/abstraction/README.md)
+1. [Introduction to OOP](00-introduction/README.md)
+2. [Encapsulation](01-encapsulation/README.md)
+3. [Inheritance](02-inheritance/README.md)
+4. [Polymorphism](03-polymorphism/README.md)
+5. [Abstraction](04-abstraction/README.md)
+6. [Composition](05-composition/README.md)
+
+Shorter [concept reference guides](concepts/) are also available for quick review.
 
 ## Why use OOP?
 
